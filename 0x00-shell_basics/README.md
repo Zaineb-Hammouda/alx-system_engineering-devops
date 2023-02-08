@@ -6,3 +6,4 @@
 5- List user and group ids numerically
 6- Create dir in tmp dir
 7- Move betty
+8- Delete betty
