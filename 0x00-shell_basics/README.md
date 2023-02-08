@@ -5,3 +5,4 @@
 4- lists content including hidden files in long format
 5- List user and group ids numerically
 6- Create dir in tmp dir
+7- Move betty
