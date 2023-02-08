@@ -9,3 +9,4 @@
 8- Delete betty
 9- delete directory 
 10- change wd to previous one
+11- list content in current dir, parent dir and /boot in order in long format
