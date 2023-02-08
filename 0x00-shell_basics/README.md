@@ -7,3 +7,4 @@
 6- Create dir in tmp dir
 7- Move betty
 8- Delete betty
+9- delete directory 
