@@ -1,3 +1,4 @@
-the first script prints absolute pathname of the current working directory
-the second prints contents list of your current directory
-the third changes wd to user's home dir
+0- prints absolute pathname of the current working directory
+1- prints contents list of your current directory
+2- changes wd to user's home dir
+3- lists contents in long format
