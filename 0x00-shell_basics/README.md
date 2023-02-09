@@ -12,4 +12,7 @@
 11- list content in current dir, parent dir and /boot in order in long format
 12- print type of /tmp/iamafile
 13- create symbolic link
-14- copy html files 
+14- copy html files
+15- uppercase
+16- rm emacs files
+17- create sub directories 
