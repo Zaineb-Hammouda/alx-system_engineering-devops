@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# terminates a progam
+pkill -f infinity
