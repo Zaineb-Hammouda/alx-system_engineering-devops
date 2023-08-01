@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script displays "to infinity and beyond" indefinitely
+# displays "i am invincible!!" when receiving a SIGTERM signal
+
+filepid="/var/run/myscript.pid"
+touch $filepid
+echo $$ > $filepid
+
+while true
+do
+	trap 'echo "I hate the kill command"; rm $filepid; kill -SIGKILL $$' SIGTERM
+	trap 'echo "Y U no love me?!"; kill -SIGKILL $$' SIGINT
+	trap 'rm $filepid; kill -SIGKILL $$' SIGQUIT
+	echo "To infinity and beyond"
+	sleep 2
+done
