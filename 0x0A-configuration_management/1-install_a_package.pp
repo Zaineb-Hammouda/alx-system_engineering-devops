@@ -1,4 +1,4 @@
 # installs flask from pip3
 exec { 'flask':
-  command => '/usr/bin/apt-get -y pip install flask==2.1.0',
+  command => 'pip install flask==2.1.0',
 }
